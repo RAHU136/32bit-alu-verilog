@@ -1,0 +1,11 @@
+read_verilog alu_32bit.v
+
+hierarchy -check -top alu_32bit
+
+proc
+
+opt
+
+show -format pdf -prefix alu_rtl
+
+
